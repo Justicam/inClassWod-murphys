@@ -1,14 +1,42 @@
-html,
-body {
-  --bs-light-rgb: 236, 236, 236;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-.wrapper {
-  box-sizing: border-box;
-  min-height: 100%;
+.hero-section {
+  background-image: url('/images/murphys-new-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
 }
+
+
+#topMenu {
+  background-color: #1B4F24;
+  color: white;
+  padding-bottom: 15px;
+}
+
+#centerText {
+  color: white;
+  height: 500px;
+}
+
+#bottomMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+div.nav-item.nav-link {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+/*:root {*/
+/*  --bs-link-color: white;*/
+/*}*/
+
