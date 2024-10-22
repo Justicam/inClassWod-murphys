@@ -8,7 +8,7 @@ const TopMenu = () => (
   <Container id="topMenu" fluid className="py-3">
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><Image src="/murphyslogowhite.png" width={200} alt="Murphy's logo"/></Navbar.Brand>
+        <Navbar.Brand href="#home"><Image src="http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphyslogowhite.png" width={200} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
